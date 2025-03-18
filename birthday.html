@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日邀请函</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffccdd;
+            color: #d9534f;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .animated-photo {
+            width: 250px;
+            height: 250px;
+            background: url('https://example.com/strawberry-bear.gif') no-repeat center/cover;
+            margin: 20px auto;
+            border-radius: 20px;
+            animation: bounce 1.5s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .map-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 15px;
+            background: #d9534f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 邀请函 🎉</h1>
+        <p>亲爱的朋友，欢迎来参加我的生日派对！</p>
+        <div class="animated-photo"></div>
+        <p><strong>📅 日期：</strong>2025年4月18日</p>
+        <p><strong>📍 地点：</strong>6, Laluan Mewah Indah 3</p>
+        <a href="https://maps.app.goo.gl/f9NHgekBHDrZtaxa7" target="_blank" class="map-link">查看地图</a>
+    </div>
+</body>
+</html>
